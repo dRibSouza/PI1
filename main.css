@@ -1,0 +1,212 @@
+body{
+  margin:0px;
+  font-family: 'Montserrat';
+  background-color: #222222;
+}
+
+@media (max-width:600px){
+  .banner{
+    background-image: url(/img/banner3.gif);
+    background-size:cover;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+  .artistas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5%;
+    column-gap: 1%;
+        
+  }
+  .perfis{
+    width: 160px;
+    height: 160px;
+    background-image: url(/img/artista.jpg);
+    background-size: 100%; 
+  }
+  .perfis:hover{
+    width: 160px;
+    height: 160px;
+    background-image: none;
+    background-color: #2b2b2b;
+     
+  }
+  .textoImagem{
+    color: transparent;
+    display: block;
+    height: 160px;
+    width: 160px;
+    
+  }
+  .textoImagem:hover{
+    display: block;
+    color: white;
+    height: 160px;
+    width: 160px;
+    
+  }
+}
+@media (min-width:601px){
+  .banner{
+    background-image: url(/img/banner2.gif);
+    background-size:cover;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+  .artistas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5%;
+    column-gap: 5%;
+        
+  }
+  .perfis{
+    width: 440px;
+    height: 440px;
+    background-image: url(/img/artista.jpg);
+    background-size: 100%; 
+  }
+  .perfis:hover{
+    width: 440px;
+    height: 440px;
+    background-image: none;
+    background-color: #2b2b2b;
+     
+  }
+  .textoImagem{
+    color: transparent;
+    display: block;
+    height: 440px;
+    width: 440px;
+    
+  }
+  .textoImagem:hover{
+    display: block;
+    color: white;
+    height: 440px;
+    width: 440px;
+    
+  }
+}
+@media (min-width:1201px){
+  .banner{
+    background-image: url(/img/banner.gif);
+    background-size:cover;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+  .artistas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5%;
+    column-gap: 5%;
+        
+  }
+  .perfis{
+    width: 440px;
+    height: 440px;
+    background-image: url(/img/artista.jpg);
+    background-size: 100%; 
+  }
+  .perfis:hover{
+    width: 440px;
+    height: 440px;
+    background-image: none;
+    background-color: #2b2b2b;
+     
+  }
+  .textoImagem{
+    color: transparent;
+    display: block;
+    height: 440px;
+    width: 440px;
+    
+  }
+  .textoImagem:hover{
+    display: block;
+    color: white;
+    height: 440px;
+    width: 440px;
+    
+  }
+}
+.logo{
+  width: 40%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    transition: 0.6s;
+  }
+  li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    transition: 0.6s;
+  }
+  .links{
+      float: right;
+  }
+
+  .navBar{
+    display: flex;
+    flex-direction:column ;
+    height: 73vh;
+    justify-content:space-between;
+  }
+
+  .descricao{
+    width: 40%;
+    border-radius: 10px;
+    line-height: 150%;
+    margin-left: 40%;
+    color: white;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .agendar{
+    color: white;
+    height: auto;
+    display: grid;
+    grid-template-columns:40% 50% 10%;   
+    line-height: 200%;
+    background-color: #222222;
+    font-size: 20px;
+    margin: 5%;
+  }
+  .item1 {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-content: center;
+  margin-top: 10%;
+}
+.item2 {
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-items: center;
+}
+
+
+.footer{
+  height: 200px;
+}
+
