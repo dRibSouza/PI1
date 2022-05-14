@@ -1,37 +1,15 @@
-body{
-  margin:0px;
-  font-family: 'Montserrat';
-  background-color: #222222;
-}
+ body{
+   margin:0px;
+   font-family: 'Montserrat';
+   background-color: #222222;
+ }
+ .banner{
+     background-image: url(/img/banner.gif);
+     background-size:cover;
+     align-items: center;
+     background-repeat: no-repeat;
+ }
 
-@media (max-width:600px){
-  .banner{
-    background-image: url(/img/banner3.gif);
-    background-size:cover;
-    align-items: center;
-    background-repeat: no-repeat;
-  }
-}
-@media (min-width:601px){
-  .banner{
-    background-image: url(/img/banner2.gif);
-    background-size:cover;
-    align-items: center;
-    background-repeat: no-repeat;
-  }
-
-}
-@media (min-width:1201px){
-  .banner{
-    background-image: url(/img/banner.gif);
-    background-size:cover;
-    align-items: center;
-    background-repeat: no-repeat;
-  }
-}
-.logo{
-  width: 40%;
-}
 a{
     text-decoration: none;
     color: black;
@@ -75,7 +53,7 @@ a{
     width: 40%;
     border-radius: 10px;
     line-height: 150%;
-    margin-left: 40%;
+    margin-left: 5%;
     color: white;
     font-size: 150%;
     font-family: 'Montserrat', sans-serif;
@@ -103,7 +81,43 @@ a{
   grid-column-end: 3;
   align-items: center;
 }
+.artistas{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 5%;
+  column-gap: 5%;
+      
+}
+.perfis{
+  width: 440px;
+  height: 440px;
+  background-image: url(/img/artista.jpg);
+  background-size: 100%; 
+  display: grid;
+  align-content: center;
+  
 
+}
+.perfis:hover{
+  width: 440px;
+  height: 440px;
+  background-image: none;
+  background-color: #2b2b2b;
+  display: grid;
+  align-content: center;
+}
+.textoImagem{
+  color: transparent;
+  display: block;
+  height: 440px;
+  width: 440px;
+}
+.textoImagem:hover{
+  display: block;
+  color: white;
+  height: 440px;
+  width: 440px;
+}
 
 .footer{
   height: 200px;
