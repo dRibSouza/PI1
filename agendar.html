@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="assets/js/main.js"></script>
+    <title>PII</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="agendar.html">AGENDAR</a></li>
+            <li><a href="artistas.html">ARTISTAS</a></li>
+            <li><a href="">CUIDADOS</a></li>
+            <li><a href="">FAQ</a></li>
+        </ul>
+    </div>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>Contato</h2>         
+          </div>
+  
+          <div class="row contact-info">
+  
+            <div class="col-md-4">
+              <div class="contact-address">
+                <i class="bi bi-geo-alt"></i>
+                <h3>Endereço</h3>
+                <address><a target="blank" href="https://goo.gl/maps/SvA5Ku7WPxvLvbNw8">PSherman 42 Wallaby Way, Sydney, NSW</a></address>
+              </div>
+            </div>
+  
+            <div class="col-md-4">
+              <div class="contact-phone">
+                <i class="bi bi-phone"></i>
+                <h3>Telefone</h3>
+                <p><a target="blank" href="https://api.whatsapp.com/send?phone=55155895548855&text=Ol%C3%A1%20gostaria%20de%20agendar%20uma%20data%20para%20tatuar">+1 5589 55488 55</a></p>
+              </div>
+            </div>
+  
+            <div class="col-md-4">
+              <div class="contact-email">
+                <i class="bi bi-envelope"></i>
+                <h3>Email</h3>
+                <p><a target="blank" href="agendamento@heratattoo.io">agendamento@heratattoo.io</a></p>
+              </div>
+            </div>
+  
+          </div>
+  
+          <div class="form">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar</button></div>
+            </form>
+          </div>
+  
+        </div>
+  
+      
+</body>
+<footer>
+    <p>footer</p>
+</footer>
