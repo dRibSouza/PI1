@@ -1,265 +1,79 @@
- body{
-   margin:0px;
-   font-family: 'Montserrat';
-   background-color: #222222;
- }
- .banner{
-     background-image: url(/img/banner2.gif);
-     background-size:cover;
-     align-items: center;
-     background-repeat: no-repeat;
- }
+<!DOCTYPE html>
+<html lang="pt-br">
 
-a{
-    text-decoration: none;
-    color: black;
-}
-  ul {
-    list-style-type: none;
-    overflow: hidden;
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>PII</title>
+</head>
+
+<body>
+    <div class="corpo">
+        <div class="banner">
+            <div class="navBar">
+                <div>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="agendar.html">AGENDAR</a></li>
+                        <li><a href="artistas.html">ARTISTAS</a></li>
+                        <li><a href="cuidados.html">CUIDADOS</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="descricao">
+                    
+                    <p class="texto"><img src="./img/Hera-removebg-preview.png" alt=""></p>
+                    
+                </div>
+                <div>
+                    <ul class="links">
+                        <li><a href="">INSTAGRAM</a></li>
+                        <li><a href="">TIK TOK</a></li>
+                        <li><a href="">TWITTER</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="agendar">
+        <div class="item1">AGENDAR</div>
+        <div class="item2">
+            <ul>
+                <ol>Please take a look at our FAQ, so you can fill up this form flawlessly. Please, fill up this form
+                    the best way you can,
+                    since that's the info we'll use to give you a price and set up your appointment</ol>
+                <ol>Grab a ruler to make sure the size of your ideal tattoo is accurate, and consider that we make
+                    original artwork only.
+                    Each tattoo is personalized and unique!After filling the form, you’ll receive an email from us
+                    between the next three to five days. Make sure you check your spam and promotions folders.</ol>
+                <ol>After filling the form, you’ll receive an email from us between the next three to five days. Make
+                    sure you check your
+                    spam and promotions folders.</ol>
+            </ul>
+        </div>
+    </div>
+
     
-  }
-  li {
-    float: left;
-  }
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 0px 5px;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px;
-    transition: 0.6s;
-  }
-  li a:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    border-radius: 10px;
-    transition: 0.6s;
-  }
-  .links{
-      float: right;
-  }
-
-  .navBar{
-    display: flex;
-    flex-direction:column ;
-    height: 73vh;
-    justify-content:space-between;
-  }
-
-  .descricao{
-    width: 40%;
-    border-radius: 10px;
-    line-height: 150%;
-    margin-left: 5%;
-    color: white;
-    font-size: 150%;
-    font-family: 'Montserrat', sans-serif;
-  }
-  .agendar{
-    color: white;
-    height: auto;
-    display: grid;
-    grid-template-columns:40% 50% 10%;   
-    line-height: 200%;
-    background-color: #222222;
-    font-size: 20px;
-    margin: 5%;
-  }
-  .item1 {
-  display: flex;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  justify-content: center;
-  margin-top: 10%;
-}
-.item2 {
-  display: flex;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  align-items: center;
-}
-/*------------------------------------------------------------
-# Artistas
---------------------------------------------------------------*/
-.artistas{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-.perfis{
-  background-image: url(/img/artista.jpg);
-  background-size: 100%; 
-  width: 30rem;
-  height: 30rem;
-  margin: 2rem;
-}
-.perfis:hover{
-  width: 30%;
-  height: 30%;
-  background-image: none;
-  background-color: #222222;
-  width: 30rem;
-  height: 30rem;
-  margin: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.artistas .perfis .textoImagem {
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-}
-.textoImagem{
-  color: transparent;
-  display: block;
-  height: 100%;
-  transition: none;
-}
-.textoImagem:hover{
-  display: block;
-  color: white;
-  height: 100%;
-  transition: 0.6s;
-}
-
-.footer{
-  height: 200px;
-}
 
 
-/*------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.section-title{
-  color: #fff;
-  padding: 15px;
-}
-.contact .contact-info {
-  margin-bottom: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-around;
-}
-.contact .contact-info i {
-  font-size: 48px;
-  display: inline-block;
-  margin-bottom: 10px;
-  color: #c88242;
-}
-.contact .contact-info address, .contact .contact-info p {
-  margin-bottom: 0;
-  color: #fff;
-}
-.contact .contact-info h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #999;
-}
-.contact .contact-info a {
-  color: #fff;
-}
-.contact .contact-info a:hover {
-  color: #c88242;
-}
-.contact .contact-address, .contact .contact-phone, .contact .contact-email {
-  margin-bottom: 20px;
-}
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
+       
+    
+<footer>
+    <p>- HERA TATTOO -</p>
+    <p><img src="/img/Hera-removebg-preview.png" alt=""></p>
+    <p>- HERA TATTOO -</p>
+</footer>
 
+</body>
 
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  height: auto;
-  padding: 10px 15px;
-  border-radius: 4px;
-  width: 100%;
-}
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #c88242;
-}
-.contact .php-email-form button[type=submit] {
-  background: #c88242;
-  border: 0;
-  padding: 10px 30px 12px 30px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-.contact .php-email-form button[type=submit]:hover {
-  background: #c88242;
-}
-
-.text-center{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.col-md-6 form-group{
-  width: 100%;
-}
-
+</html>
